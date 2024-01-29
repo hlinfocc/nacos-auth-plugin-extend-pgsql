@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.hlinfo</groupId>
+	<artifactId>nacos-auth-plugin-extend-pgsql</artifactId>
+	<version>2.3.0</version>
+	<name>nacos-auth-plugin-extend-pgsql</name>
+	<url>https://github.com/hlinfocc/nacos-auth-plugin-extend-pgsql</url>
+	<organization>
+		<name>Alibaba Group</name>
+		<url>https://github.com/alibaba</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>https://github.com/hlinfocc/nacos-auth-plugin-extend-pgsql/blob/master/LICENSE</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>hlinfo</name>
+			<email>service@hlinfo.net</email>
+			<organization>http://hlinfo.net</organization>
+			<organizationUrl>http://hlinfo.net</organizationUrl>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:https://github.com/hlinfocc/nacos-auth-plugin-extend-pgsql.git</connection>
+		<developerConnection>scm:git:https://github.com/hlinfocc/nacos-auth-plugin-extend-pgsql.git</developerConnection>
+		<url>https://github.com/hlinfocc/nacos-auth-plugin-extend-pgsql</url>
+	</scm>
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/alibaba/nacos/issues</url>
+	</issueManagement>
+	<dependencies>
+		<dependency>
+			<groupId>com.alibaba.nacos</groupId>
+			<artifactId>nacos-auth-plugin</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.ldap</groupId>
+			<artifactId>spring-ldap-core</artifactId>
+			<version>2.4.1</version>
+		</dependency>
+	</dependencies>
+</project>
